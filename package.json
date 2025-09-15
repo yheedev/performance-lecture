@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "cra-bundle-analyzer": "^0.1.1",
     "json-server": "^0.17.4",
     "serve": "^14.2.4"
