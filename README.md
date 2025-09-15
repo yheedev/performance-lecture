@@ -1,48 +1,23 @@
-## Lecture-1
-
-'프론트엔드 개발자를 위한, 실전 웹 성능 최적화(feat. React) - Part. 1' 1번째 강의 소스입니다.
+['프론트엔드 개발자를 위한, 실전 웹 성능 최적화(feat. React) - Part. 1'](https://www.inflearn.com/course/%EC%9B%B9-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94-%EB%A6%AC%EC%95%A1%ED%8A%B8-1/dashboard)를 수강한 내용을 기록했습니다.
 
 ### 실행
 
-1. download sources
-
 ```
-$ git clone https://github.com/performance-lecture/lecture-1.git
+// 다운로드
+git clone https://github.com/yheedev/performance-lecture.git
+
+cd performance-lecture
+code .
+
+// 의존성 설치
+npm i
+
+// 개발 서버 가동
+npm run start
+
+// json 서버 가동. npm run start 실행한 콘솔과 다른 콘솔에서 실행한 뒤에 종료하지 않을 것.
+npm run server
+
+// build & serve
+npm run serve
 ```
-
-2. install dependencies
-
-```
-$ npm install
-or
-$ yarn
-```
-
-3. start development server
-
-```
-$ npm run start
-or
-$ yarn start
-```
-
-4. start json-server
-
-```
-$ npm run server
-or
-$ yarn server
-```
-*3번의 dev server 와 다른 콘솔에서 띄워줍니다.
-
-5. build + serve
-
-```
-$ npm run serve
-or
-$ yarn serve
-```
-
-### 질문
-
-궁금하신 부분은 강의 내 질문 & 답변 게시판 또는 해당 레포지토리의 Issues를 이용해주시기 바랍니다.
